@@ -26,6 +26,7 @@ app.use('/users', require('./routes/userRoutes'))
 app.use('/kategori', require('./routes/kategoriRoutes'))
 app.use('/barang', require('./routes/barangRoutes'))
 app.use('/keranjang', require('./routes/keranjangRoutes'))
+app.use('/transaksi', require('./routes/transaksiRoutes'));
 
 // app.get("/data/:npm/:nama", (req, res) => {
 //     res.json({
